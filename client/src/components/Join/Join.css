@@ -1,0 +1,72 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    height: 100vh !important;
+    align-items: center !important;
+    background: linear-gradient(to top, rgb(2, 41, 44), rgb(128, 223, 240)) !important;
+  }
+  
+  .joinInnerContainer {
+    width: 50% ;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: rgb(4, 47, 53);
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(4, 47, 53);
+  }
+  
+  .button {
+      color:  white!important;
+      background-color: rgb(4, 47, 53) !important;
+      text-transform: uppercase !important;
+      text-decoration: none !important;
+      margin-top: 20px !important;
+      display: inline-block !important;
+      border: none;
+      width: 100% !important;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+ 
